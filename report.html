@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Performance Report</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>AI Learning Management System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="report.html">AI Report</a>
+        <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+</header>
+<div class="dashboard">
+    <h2>🤖 AI Performance Report</h2>
+    <p>
+        Personalized academic analysis generated using
+        student performance data.
+    </p>
+    <!-- Overall Performance -->
+    <div class="box">
+        <h3>📊 Overall Performance</h3>
+        <p>Overall Score: <b>92%</b></p>
+        <div class="progress">
+            <div class="progress-bar" style="width:92%;">
+                92%
+            </div>
+        </div>
+    </div>
+    <!-- Attendance -->
+
+    <div class="box">
+
+        <h3>📅 Attendance</h3>
+
+        <p>Overall Attendance: <b>90%</b></p>
+
+        <div class="progress">
+            <div class="progress-bar" style="width:90%;">
+                90%
+            </div>
+        </div>
+
+    </div>
+    <!-- Subject Performance -->
+
+    <div class="box">
+
+        <h3>📚 Subject Performance</h3>
+
+        <table border="1" width="100%" cellpadding="10">
+
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Performance</th>
+            </tr>
+
+            <tr>
+                <td>Python Programming</td>
+                <td>95%</td>
+                <td>Excellent ⭐</td>
+            </tr>
+
+            <tr>
+                <td>Web Development</td>
+                <td>91%</td>
+                <td>Excellent ⭐</td>
+            </tr>
+
+            <tr>
+                <td>Artificial Intelligence</td>
+                <td>86%</td>
+                <td>Good 👍</td>
+            </tr>
+
+            <tr>
+                <td>Machine Learning</td>
+                <td>78%</td>
+                <td>Needs Improvement</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!-- Strength -->
+
+    <div class="box">
+
+        <h3>💪 Strong Subjects</h3>
+
+        <p>✔ Python Programming</p>
+
+        <p>✔ Web Development</p>
+
+        <p>✔ Artificial Intelligence</p>
+
+    </div>
+
+
+    <!-- Weak Subject -->
+
+    <div class="box">
+
+        <h3>⚠️ Areas for Improvement</h3>
+
+        <p>Machine Learning</p>
+
+        <p>Problem Solving</p>
+
+        <p>Advanced Algorithms</p>
+
+    </div>
+
+
+    <!-- AI Recommendation -->
+
+    <div class="box">
+
+        <h3>🤖 AI Recommendation</h3>
+
+        <p>
+            Based on your academic performance, the AI system
+            recommends focusing more on Machine Learning and
+            Advanced Algorithms.
+        </p>
+
+        <br>
+
+        <p>
+            Recommended learning time:
+            <b>1–2 hours per day</b>
+        </p>
+
+        <br>
+
+        <p>
+            Complete additional practice problems and
+            review your previous assignments.
+        </p>
+
+    </div>
+
+
+    <!-- Risk Analysis -->
+
+    <div class="box">
+
+        <h3>🚦 Academic Risk Analysis</h3>
+
+        <p>
+            Risk Level:
+            <b style="color:green;">LOW</b>
+        </p>
+
+        <p>
+            Attendance and overall academic performance
+            are currently good.
+        </p>
+
+    </div>
+
+
+    <!-- Generate Report -->
+
+    <div class="box" style="text-align:center;">
+
+        <button onclick="generateReport()"
+            style="
+            padding:12px 25px;
+            background:#2563eb;
+            color:white;
+            border:none;
+            border-radius:6px;
+            cursor:pointer;">
+
+            📄 Generate Report
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <p>
+        © 2026 AI Learning Management System
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

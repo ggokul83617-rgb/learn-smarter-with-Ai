@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - AI LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AI Learning Management System</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+</header>
+
+<div class="dashboard">
+
+    <h2>Admin Dashboard 👨‍💼</h2>
+
+    <!-- Statistics -->
+
+    <div class="course-grid">
+
+        <div class="card">
+            <h3>Students</h3>
+            <p style="font-size:30px;">120</p>
+            <p>Total Students</p>
+        </div>
+
+        <div class="card">
+            <h3>Teachers</h3>
+            <p style="font-size:30px;">18</p>
+            <p>Total Teachers</p>
+        </div>
+
+        <div class="card">
+            <h3>Courses</h3>
+            <p style="font-size:30px;">25</p>
+            <p>Available Courses</p>
+        </div>
+
+        <div class="card">
+            <h3>Exams</h3>
+            <p style="font-size:30px;">12</p>
+            <p>Active Exams</p>
+        </div>
+
+    </div>
+
+    <!-- Student Management -->
+
+    <div class="box">
+
+        <h3>👨‍🎓 Student Management</h3>
+
+        <table border="1" width="100%" cellpadding="10">
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Attendance</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Arun</td>
+                <td>Python</td>
+                <td>92%</td>
+                <td>95%</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Kumar</td>
+                <td>AI</td>
+                <td>88%</td>
+                <td>90%</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Priya</td>
+                <td>Web Development</td>
+                <td>96%</td>
+                <td>94%</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- Course Management -->
+
+    <div class="box">
+
+        <h3>📚 Course Management</h3>
+
+        <p>Python Programming</p>
+        <p>Web Development</p>
+        <p>Artificial Intelligence</p>
+        <p>Machine Learning</p>
+        <p>IoT & Embedded Systems</p>
+
+        <button onclick="alert('Course management module opened!')">
+            Manage Courses
+        </button>
+
+    </div>
+
+    <!-- Teacher Management -->
+
+    <div class="box">
+
+        <h3>👩‍🏫 Teacher Management</h3>
+
+        <p>Total Teachers: <b>18</b></p>
+
+        <button onclick="alert('Teacher management module opened!')">
+            Manage Teachers
+        </button>
+
+    </div>
+
+    <!-- AI Analytics -->
+
+    <div class="box">
+
+        <h3>🤖 AI Performance Analytics</h3>
+
+        <p>Average Student Performance: <b>91%</b></p>
+
+        <p>Average Attendance: <b>90%</b></p>
+
+        <p>Students At Risk: <b>8</b></p>
+
+        <p>AI Recommendation:</p>
+
+        <p>
+            Students with low attendance should receive
+            additional learning resources and reminders.
+        </p>
+
+    </div>
+
+    <!-- Reports -->
+
+    <div class="box">
+
+        <h3>📊 Reports</h3>
+
+        <button onclick="alert('Student report generated!')">
+            Student Report
+        </button>
+
+        <button onclick="alert('Course report generated!')">
+            Course Report
+        </button>
+
+        <button onclick="alert('Performance report generated!')">
+            Performance Report
+        </button>
+
+    </div>
+
+    <!-- Logout -->
+
+    <div class="box" style="text-align:center;">
+
+        <button onclick="logout()"
+            style="padding:12px 30px;
+                   background:#dc2626;
+                   color:white;
+                   border:none;
+                   border-radius:6px;
+                   cursor:pointer;">
+
+            Logout
+
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 AI Learning Management System</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - AI Learning Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>AI Learning Management System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- Course Section -->
+    <section class="courses-page">
+
+        <h2>Our Courses</h2>
+        <p>Choose a course and start learning today!</p>
+
+        <input type="text" class="search" placeholder="Search Courses...">
+
+        <div class="course-grid">
+
+            <!-- Course 1 -->
+            <div class="card">
+                <h3>Python Programming</h3>
+                <p><b>Duration:</b> 40 Hours</p>
+                <p><b>Level:</b> Beginner</p>
+                <button onclick="enroll('Python Programming')">
+                    Enroll Now
+                </button>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="card">
+                <h3>Web Development</h3>
+                <p><b>Duration:</b> 35 Hours</p>
+                <p><b>Level:</b> Intermediate</p>
+                <button onclick="enroll('Web Development')">
+                    Enroll Now
+                </button>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="card">
+                <h3>Artificial Intelligence</h3>
+                <p><b>Duration:</b> 50 Hours</p>
+                <p><b>Level:</b> Advanced</p>
+                <button onclick="enroll('Artificial Intelligence')">
+                    Enroll Now
+                </button>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <p><b>Duration:</b> 45 Hours</p>
+                <p><b>Level:</b> Advanced</p>
+                <button onclick="enroll('Machine Learning')">
+                    Enroll Now
+                </button>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="card">
+                <h3>Java Programming</h3>
+                <p><b>Duration:</b> 30 Hours</p>
+                <p><b>Level:</b> Beginner</p>
+                <button onclick="enroll('Java Programming')">
+                    Enroll Now
+                </button>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="card">
+                <h3>IoT & Embedded Systems</h3>
+                <p><b>Duration:</b> 48 Hours</p>
+                <p><b>Level:</b> Intermediate</p>
+                <button onclick="enroll('IoT & Embedded Systems')">
+                    Enroll Now
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 AI Learning Management System</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

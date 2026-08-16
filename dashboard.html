@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - AI LMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>AI Learning Management System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" onclick="logout()">Logout</a>
+        </nav>
+    </header>
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+
+        <h2 id="studentName">Welcome, Student 👋</h2>
+
+        <!-- Profile -->
+        <div class="box">
+            <h3>Student Profile</h3>
+            <p><b>Name:</b> Student</p>
+            <p><b>Department:</b> Electronics & Communication</p>
+            <p><b>Year:</b> III Year</p>
+        </div>
+
+        <!-- My Courses -->
+        <div class="box">
+            <h3>My Courses</h3>
+            <ul>
+                <li>Python Programming</li>
+                <li>Web Development</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </div>
+
+        <!-- Attendance -->
+        <div class="box">
+            <h3>Attendance</h3>
+            <p>Overall Attendance: <span id="attendance">90%</span></p>
+        </div>
+
+        <!-- Assignments -->
+        <div class="box">
+            <h3>Assignments</h3>
+            <ul>
+                <li>HTML Assignment ✅</li>
+                <li>Python Quiz ✅</li>
+                <li>AI Mini Project ⏳</li>
+            </ul>
+        </div>
+
+        <!-- Grades -->
+        <div class="box">
+            <h3>Grades</h3>
+            <table border="1" width="100%" cellpadding="8">
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>91</td>
+                </tr>
+                <tr>
+                    <td>AI</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- AI Report -->
+        <div class="box">
+            <h3>AI Performance Report</h3>
+            <p><b>Overall Score:</b> <span id="grade">92%</span></p>
+            <p><b>Recommendation:</b></p>
+            <p>Focus on Machine Learning and complete the AI Mini Project to improve your score.</p>
+        </div>
+
+        <!-- Logout Button -->
+        <div class="box" style="text-align:center;">
+            <button onclick="logout()" style="padding:12px 30px;background:#2563eb;color:white;border:none;border-radius:6px;cursor:pointer;">
+                Logout
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 AI Learning Management System | Student Dashboard</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
